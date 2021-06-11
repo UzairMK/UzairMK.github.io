@@ -4,68 +4,73 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Eric's Angels - Uzair</title>
+    <title>Uzair Khan</title>
     <meta name="author" content="Uzair Khan" />
-    <meta name="description" content="Had the best API presentation" />
+    <meta name="description" content="Uzair Khan's profile. A practise website to learn how to use HTML and CSS." />
     <link href="profilestyle.css" rel="stylesheet" />
 </head>
 
 <body>
     <nav id="MainNav">
         <ul>
-            <li><a href="projects.html">Go to projects</a></li>
-            <li><a href="https://www.linkedin.com/in/uzair-khan-325630119/" target="_parent">My LinkedIn</a></li>
+            <li><a class="nav-item" href="projects.html">Projects</a></li>
+            <li><a class="nav-item" href="https://www.linkedin.com/in/uzair-khan-325630119/" target="_blank">LinkedIn</a></li>
         </ul>
     </nav>
 
     <header>
         <hr>
-        <img src="Images/ProfilePic.JPG" alt="ProfilePic" style="width:256px;height:300px;" />
+        <img id="profilepic" src="Images/profilepic.JPG" alt="ProfilePic" />
         <h1>Uzair Khan</h1>
         <hr>
     </header>
-    <h2>My Profile</h2>
-    <div class="flex-container">
-        <section class="box1">
-            <h3>My Skills</h3>
-            <ol>
-                <li><a href="#">Testing1</a></li>
-                <li><a href="#">Testing2</a></li>
-                <li><a href="#">Testing3</a></li>
-            </ol>
-        </section>
-        <section class="box2">
-            <h3>Goals</h3>
-            <ul>
-                <li>More Testing</li>
-                <li>More Presenting</li>
-                <li>More Winning</li>
-            </ul>
-            <p>Take part in more API testing presentation competitions</p>
-        </section>
-    </div>
-    <h3>Eng-86</h3>
-    <p>
-        balah asdpafn aofba<br> balah asdpafn aofba<br> balah asdpafn aofba<br> balah asdpafn aofba<br>
-        <br>
-    </p>
-    <p><em>- Uzair Khan</em></p>
-    <h3>Search for news</h3>
-    <form id="myform" action="https://bbc.co.uk/search">
-        <input type="submit" value="sumbit" class="button">
-        <label for="mysearch">Search for: </label><br>
-        <input id="mysearch" name="q" type="text" value="London"><br>
-        <input type="radio"><br>
-        <input type="password">
-    </form>
 
-    <p>Here is some text that is <em>emphasized</em> and <strong>bold</strong>.</p>
+    <h2>My Profile</h2>
+
+    <section class="about_me">
+        <h3>About me</h3>
+        <p>
+            My name is Uzair Khan and I am 24 years old. My favourite colour is yellow and my favourite number is 3. I like warm days with cloudy skys because I dont want to wear a lot of layers and I don't like it when the sun gets in my eyes.
+        </p>
+    </section>
+
+    <section class="skills">
+        <h3>My Skills</h3>
+        <ul>
+            <li>C#</li>
+            <li>SQL</li>
+            <li>Python</li>
+            <li>Matlab</li>
+            <li>Excel</li>
+            <li>GitHub</li>
+            <li>Windows Presentation Foundatiom</li>
+        </ul>
+    </section>
+
+    <section class="goals">
+        <h3>Goals</h3>
+        <ol>
+            <li>Get a full-time job</li>
+            <li>Learn more ways in which I can get computers to work for me</li>
+            <li>Keeping winning</li>
+        </ol>
+    </section>
+
+    <section class="duckduckgo">
+        <h3>DuckDuckGo</h3>
+        <p>
+            Are you fed up with google telling you what to think but you can't find a better search engine?<br> Well look no further, I introduce to you DuckDuckGo. Just as good as google but they give you <em><strong>NATURAL</strong></em> search results.<br>            Have a go with the search bar below.
+        </p>
+        <form id="myform" action="https://duckduckgo.com/">
+            <label for="mysearch">DuckDuckGo search: </label><br>
+            <input id="mysearch" name="q" type="text" value="">
+            <input type="submit" value="Submit" class="button">
+        </form>
+    </section>
+
     <footer>
         <small>Copyright &#169; <cite>Uzair Khan</cite></small>
     </footer>
 </body>
-
-
-
 
 </html>
