@@ -7,11 +7,25 @@ body {
     background-image: url();
     background-repeat: no-repeat;
     background-size: auto;
-    width: 7in;
+    max-width: 6in;
+    margin: auto;
 }
 
-.about_me {
-    background-color: aquamarine;
+h2 {
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    margin: 10px;
+    padding: 10px 10px;
+}
+
+section h3,
+p,
+ol,
+ul {
+    margin: 2px;
 }
 
 p,
@@ -21,15 +35,16 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
+    color: gray;
 }
 
 a:hover {
-    color: red;
+    color: blue;
+    text-decoration: underline;
 }
 
 a:active {
-    color: green;
+    color: yellow;
 }
 
 #MainNav {
@@ -65,17 +80,40 @@ a:active {
     padding: 6px;
     border: none;
     background-color: whitesmoke;
-    color: green;
+    color: black;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-items: center;
+.button:hover {
+    background-color: gainsboro;
+}
+
+.button:active {
+    background-color: black;
+    color: white;
+}
+
+header {
+    text-align: center;
 }
 
 header img,
 h1 {
     display: inline;
-    justify-self: auto;
+}
+
+footer {
+    text-align: center;
+}
+
+th,
+td {
+    border-bottom: 1px black solid;
+}
+
+.table_desc {
+    width: 3.3in;
+}
+
+tbody {
+    color: black;
 }
